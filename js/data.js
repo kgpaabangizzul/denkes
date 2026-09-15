@@ -26,7 +26,7 @@ const DENKESYAH_DATA = {
 
     // Data Pimpinan (Komandan Denkesyah)
     komandan: {
-      nama: "Letkol Ckm dr. Aris Purnomo, Sp.B",
+      nama: "Letkol Ckm dr. Sandhi Fitriardi, Sp.S.,M.M.",
       pangkat: "Letnan Kolonel Ckm",
       jabatan: "Komandan Denkesyah 04.04.04 Surakarta",
       subJabatan: "Kesdam IV/Diponegoro",

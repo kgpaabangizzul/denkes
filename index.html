@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Denkesyah 04.04.04 Surakarta | Website Resmi Kesehatan TNI AD</title>
+  <meta name="description" content="Website Resmi Detasemen Kesehatan Wilayah 04.04.04 Surakarta - Kesdam IV/Diponegoro. Melayani Dukungan Kesehatan (Dukkes) Militer dan Pelayanan Kesehatan (Yankes) RS Tk. III Slamet Riyadi & Klinik Pratama Kartika Solo Raya." />
+  <meta name="keywords" content="Denkesyah Surakarta, DKT Solo, RS Slamet Riyadi Solo, Kesdam IV Diponegoro, Klinik Kartika Solo, Rikkes TNI Solo, Kesehatan Militer Solo Raya" />
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            army: {
+              900: '#0b2216',
+              800: '#0f2e1e',
+              700: '#1b4332',
+              600: '#2d5a27',
+              500: '#40916c',
+              100: '#d8f3dc',
+              50: '#f0fdf4'
+            },
+            gold: {
+              DEFAULT: '#d4af37',
+              light: '#f3c64f',
+              dark: '#aa8210'
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            serif: ['Merriweather', 'Georgia', 'serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/custom.css" />
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased font-sans selection:bg-emerald-900 selection:text-amber-300">
+
+  <!-- TOP BAR INFORMASI & EMERGENCY -->
+  <div class="bg-[#0b2216] text-white text-xs border-b border-emerald-900/50 py-2 px-4 sm:px-8">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2">
+      <div class="flex items-center gap-4 flex-wrap justify-center md:justify-start">
+        <span class="flex items-center gap-1.5 text-emerald-300 font-semibold">
+          <i data-lucide="shield" class="w-3.5 h-3.5 text-amber-400"></i>
+          KESDAM IV / DIPONEGORO • KOREM 074 / WARASTRATAMA
+        </span>
+        <span class="hidden lg:inline text-slate-400">|</span>
+        <span class="hidden lg:flex items-center gap-1.5 text-slate-300">
+          <i data-lucide="clock" class="w-3.5 h-3.5 text-slate-400"></i>
+          Pelayanan Madenkesyah: 07.00 - 15.30 WIB
+        </span>
+      </div>
+
+      <div class="flex items-center gap-4 flex-wrap justify-center">
+        <div class="flex items-center gap-1.5 bg-red-600/90 text-white px-2.5 py-0.5 rounded-full font-bold pulse-emergency">
+          <i data-lucide="ambulance" class="w-3.5 h-3.5"></i>
+          <span>HOTLINE IGD 24 JAM: (0271) 713311</span>
+        </div>
+        <a href="https://wa.me/6281226004404" target="_blank" class="text-amber-300 hover:text-amber-200 flex items-center gap-1 font-semibold">
+          <i data-lucide="message-square" class="w-3.5 h-3.5"></i>
+          <span>WA Siaga: 0812-2600-4404</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR UTAMA -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 py-3.5 flex items-center justify-between">
+      <!-- Brand & Emblem -->
+      <a href="#beranda" class="flex items-center gap-3 group">
+        <!-- SVG Emblem Kesehatan Militer TNI AD -->
+        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[#1b4332] to-[#0b2216] p-2 border-2 border-amber-400 shadow flex items-center justify-center shrink-0">
+          <svg viewBox="0 0 100 100" class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Perisai Militer -->
+            <path d="M50 5 L88 20 V50 C88 74 50 95 50 95 C50 95 12 74 12 50 V20 L50 5 Z" fill="#1b4332" stroke="#d4af37" stroke-width="4"/>
+            <!-- Bintang Emas TNI AD -->
+            <polygon points="50,15 54,26 66,26 56,33 60,44 50,37 40,44 44,33 34,26 46,26" fill="#f3c64f"/>
+            <!-- Palang Merah / Medis -->
+            <rect x="44" y="42" width="12" height="34" rx="2" fill="#e11d48"/>
+            <rect x="33" y="53" width="34" height="12" rx="2" fill="#e11d48"/>
+            <!-- Tongkat Asklepios / Ular Emas Medis -->
+            <path d="M50 38 V80" stroke="#f3c64f" stroke-width="3" stroke-linecap="round"/>
+            <path d="M42 46 C56 50 58 56 42 62 C34 66 60 70 50 78" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div>
+          <div class="flex items-center gap-1.5">
+            <span class="text-base sm:text-lg font-extrabold text-[#1b4332] tracking-tight group-hover:text-emerald-700 transition">
+              DENKESYAH 04.04.04
+            </span>
+            <span class="text-[10px] font-bold px-1.5 py-0.5 bg-amber-100 text-amber-900 rounded border border-amber-300">
+              SURAKARTA
+            </span>
+          </div>
+          <p class="text-[11px] text-slate-500 font-medium tracking-wide">
+            Kesdam IV/Diponegoro • Sesanti <strong class="text-amber-700">Hesti Wira Sakti</strong>
+          </p>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Menu -->
+      <nav class="hidden lg:flex items-center gap-6 text-xs sm:text-sm font-semibold text-slate-700">
+        <a href="#beranda" class="hover:text-[#1b4332] hover:underline underline-offset-8 transition">Beranda</a>
+        <a href="#profil" class="hover:text-[#1b4332] hover:underline underline-offset-8 transition">Profil & Pimpinan</a>
+        <a href="#faskes" class="hover:text-[#1b4332] hover:underline underline-offset-8 transition">Faskes Jajaran</a>
+        <a href="#layanan" class="hover:text-[#1b4332] hover:underline underline-offset-8 transition">Layanan & Dukkes</a>
+        <a href="#jadwal" class="hover:text-[#1b4332] hover:underline underline-offset-8 transition">Jadwal Dokter</a>
+        <a href="#alur" class="hover:text-[#1b4332] hover:underline underline-offset-8 transition">Alur Berobat</a>
+        <a href="#berita" class="hover:text-[#1b4332] hover:underline underline-offset-8 transition">Kegiatan</a>
+        <a href="#kontak" class="hover:text-[#1b4332] hover:underline underline-offset-8 transition">Pengaduan</a>
+      </nav>
+
+      <!-- Action Button -->
+      <div class="hidden sm:flex items-center gap-3">
+        <a href="tel:0271714422" class="px-4 py-2 border border-[#1b4332] text-[#1b4332] hover:bg-emerald-50 rounded-xl text-xs font-bold transition flex items-center gap-1.5">
+          <i data-lucide="phone" class="w-3.5 h-3.5"></i>
+          <span>(0271) 714422</span>
+        </a>
+        <a href="#faskes" class="px-4 py-2 bg-[#1b4332] hover:bg-[#2d5a27] text-white rounded-xl text-xs font-bold transition shadow-sm flex items-center gap-1.5">
+          <i data-lucide="search" class="w-3.5 h-3.5 text-amber-300"></i>
+          <span>Cari Faskes</span>
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-xl text-slate-700 hover:bg-slate-100 transition">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-slate-200 px-6 py-4 space-y-3 text-sm font-semibold">
+      <a href="#beranda" class="block py-2 text-slate-800 hover:text-[#1b4332] border-b border-slate-100">Beranda</a>
+      <a href="#profil" class="block py-2 text-slate-800 hover:text-[#1b4332] border-b border-slate-100">Profil & Komandan</a>
+      <a href="#faskes" class="block py-2 text-slate-800 hover:text-[#1b4332] border-b border-slate-100">Faskes Jajaran Solo Raya</a>
+      <a href="#layanan" class="block py-2 text-slate-800 hover:text-[#1b4332] border-b border-slate-100">Layanan Unggulan & Dukkes</a>
+      <a href="#jadwal" class="block py-2 text-slate-800 hover:text-[#1b4332] border-b border-slate-100">Jadwal Poliklinik RS DKT</a>
+      <a href="#alur" class="block py-2 text-slate-800 hover:text-[#1b4332] border-b border-slate-100">Alur Berobat TNI / BPJS</a>
+      <a href="#kalkulator" class="block py-2 text-slate-800 hover:text-[#1b4332] border-b border-slate-100">Kalkulator Fisik / BMI TNI</a>
+      <a href="#berita" class="block py-2 text-slate-800 hover:text-[#1b4332] border-b border-slate-100">Berita & Bakti Sosial</a>
+      <a href="#kontak" class="block py-2 text-slate-800 hover:text-[#1b4332]">Pengaduan & Kontak</a>
+      <div class="pt-3 flex flex-col gap-2">
+        <a href="tel:0271713311" class="w-full text-center py-2.5 bg-red-600 text-white rounded-xl font-bold text-xs">
+          Hotline IGD: (0271) 713311
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="beranda" class="relative bg-army-gradient text-white overflow-hidden py-16 sm:py-24">
+    <!-- Subtle Background Glows -->
+    <div class="absolute top-0 right-0 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 relative z-10">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        <!-- Left Hero Text -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-900/80 border border-emerald-700/60 text-emerald-200 text-xs font-semibold backdrop-blur-sm shadow-inner">
+            <span class="w-2 h-2 rounded-full bg-amber-400 animate-ping"></span>
+            <span>SATUAN KESEHATAN WILAYAH RESMI TNI ANGKATAN DARAT</span>
+          </div>
+
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight">
+            Mengabdi dengan <span class="text-gold-gradient">Disiplin Militer</span>, Melayani dengan <span class="text-emerald-300">Ketulusan Hati</span>
+          </h1>
+
+          <p class="text-sm sm:text-base text-slate-300 leading-relaxed max-w-2xl">
+            Detasemen Kesehatan Wilayah 04.04.04 Surakarta (Kesdam IV/Diponegoro) menyelenggarakan dukungan kesehatan militer operasi dan latihan prima, serta pelayanan fasilitas kesehatan bermartabat melalui <strong>Rumkit Tk. III Slamet Riyadi</strong> dan <strong>7 Klinik Pratama Kartika</strong> di seluruh Solo Raya.
+          </p>
+
+          <!-- Quick Action Buttons -->
+          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-3 pt-2">
+            <a href="#faskes" class="px-6 py-3.5 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-extrabold text-sm rounded-xl shadow-lg hover:shadow-amber-500/20 transition flex items-center gap-2">
+              <i data-lucide="hospital" class="w-4 h-4 text-slate-950"></i>
+              <span>Faskes Jajaran Solo Raya</span>
+            </a>
+            <a href="#jadwal" class="px-6 py-3.5 bg-white/10 hover:bg-white/20 border border-white/20 text-white font-bold text-sm rounded-xl backdrop-blur-sm transition flex items-center gap-2">
+              <i data-lucide="calendar" class="w-4 h-4 text-amber-300"></i>
+              <span>Jadwal Dokter Spesialis</span>
+            </a>
+            <a href="tel:0271713311" class="px-5 py-3.5 bg-red-600 hover:bg-red-700 text-white font-bold text-sm rounded-xl shadow-lg transition flex items-center gap-2">
+              <i data-lucide="phone-call" class="w-4 h-4"></i>
+              <span>Panggilan IGD 24 Jam</span>
+            </a>
+          </div>
+
+          <!-- Feature Highlights Tags -->
+          <div class="pt-4 flex flex-wrap items-center justify-center lg:justify-start gap-4 text-xs text-slate-300">
+            <span class="flex items-center gap-1.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-400"></i>
+              Layanan BPJS & Umum
+            </span>
+            <span class="flex items-center gap-1.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-400"></i>
+              Rikkes Calon Prajurit
+            </span>
+            <span class="flex items-center gap-1.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-400"></i>
+              Ambulans Siaga 24 Jam
+            </span>
+            <span class="flex items-center gap-1.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-400"></i>
+              Dukkes Operasi & VVIP
+            </span>
+          </div>
+        </div>
+
+        <!-- Right Hero Interactive Card -->
+        <div class="lg:col-span-5">
+          <div class="glass-card-dark p-6 sm:p-8 rounded-3xl shadow-2xl border border-amber-400/30 relative">
+            <div class="flex items-center justify-between border-b border-emerald-800/80 pb-4 mb-5">
+              <div>
+                <span class="text-[11px] font-bold text-amber-400 tracking-widest uppercase">KORPS KESAD</span>
+                <h3 class="text-xl font-bold text-white">Hesti Wira Sakti</h3>
+              </div>
+              <div class="w-10 h-10 rounded-xl bg-amber-500/20 border border-amber-400/40 flex items-center justify-center text-amber-300">
+                <i data-lucide="shield-plus" class="w-5 h-5"></i>
+              </div>
+            </div>
+
+            <!-- Unit Info Box -->
+            <div class="space-y-3.5 text-xs text-slate-300">
+              <div class="flex items-start gap-3 p-3 rounded-xl bg-emerald-950/60 border border-emerald-800/50">
+                <i data-lucide="building-2" class="w-4 h-4 text-amber-400 shrink-0 mt-0.5"></i>
+                <div>
+                  <strong class="text-white block">Markas Denkesyah 04.04.04:</strong>
+                  Jl. Slamet Riyadi No. 321, Penumping, Laweyan, Kota Surakarta
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3 p-3 rounded-xl bg-emerald-950/60 border border-emerald-800/50">
+                <i data-lucide="cross" class="w-4 h-4 text-red-400 shrink-0 mt-0.5"></i>
+                <div>
+                  <strong class="text-white block">Rumah Sakit Rujukan Utama:</strong>
+                  RS Tk. III 04.06.04 Slamet Riyadi (RS DKT Solo)
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3 p-3 rounded-xl bg-emerald-950/60 border border-emerald-800/50">
+                <i data-lucide="network" class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5"></i>
+                <div>
+                  <strong class="text-white block">Jejaring FKTP Jajaran:</strong>
+                  7 Klinik Pratama Kartika (Solo, Klaten, Boyolali, Sragen, Sukoharjo, Karanganyar, Wonogiri)
+                </div>
+              </div>
+            </div>
+
+            <!-- Emergency Direct Call Button -->
+            <div class="mt-6 pt-4 border-t border-emerald-800/80 flex items-center justify-between">
+              <div>
+                <span class="text-[11px] text-slate-400 block">Operator Sentral:</span>
+                <span class="text-base font-bold text-amber-400">(0271) 714422</span>
+              </div>
+              <a href="https://wa.me/6281226004404?text=Halo%20Admin%20Denkesyah%2004.04.04%20Surakarta,%20mohon%20informasi%20layanan." target="_blank" class="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl font-bold text-xs shadow transition flex items-center gap-1.5">
+                <i data-lucide="send" class="w-3.5 h-3.5"></i>
+                <span>Kontak WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK STATS SECTION -->
+  <section class="relative -mt-8 z-20 max-w-7xl mx-auto px-4 sm:px-8">
+    <div id="stats-container" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
+      <!-- Diisi oleh js/main.js -->
+    </div>
+  </section>
+
+  <!-- SAMBUTAN DANDENKESYAH & PROFIL SATUAN -->
+  <section id="profil" class="py-20 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        <!-- Komandan Photo Card -->
+        <div class="lg:col-span-5">
+          <div class="relative bg-white rounded-3xl p-6 shadow-xl border border-slate-200/80 overflow-hidden">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-amber-400/10 rounded-bl-full pointer-events-none"></div>
+            
+            <!-- Graphic Avatar TNI Ckm -->
+            <div class="w-full aspect-[4/5] rounded-2xl bg-gradient-to-t from-[#0b2216] via-[#1b4332] to-slate-700 relative overflow-hidden flex flex-col items-center justify-end p-6 text-center border-4 border-amber-400/40 shadow-inner">
+              <!-- Military Figure Silhouette & Medals SVG Graphic -->
+              <div class="absolute inset-0 flex items-center justify-center opacity-25">
+                <svg viewBox="0 0 200 200" class="w-64 h-64 text-amber-300" fill="currentColor">
+                  <path d="M100 20 L120 70 L170 70 L130 100 L145 150 L100 120 L55 150 L70 100 L30 70 L80 70 Z"/>
+                </svg>
+              </div>
+
+              <!-- Insignia Letkol Ckm -->
+              <div class="relative z-10 w-full">
+                <div class="w-16 h-16 mx-auto rounded-full bg-amber-400/20 border-2 border-amber-400 flex items-center justify-center mb-3 text-amber-300 shadow-md">
+                  <i data-lucide="shield" class="w-8 h-8"></i>
+                </div>
+                <span class="inline-block px-3 py-1 bg-amber-500 text-slate-950 font-extrabold text-[11px] rounded-full uppercase tracking-wider mb-2">
+                  Komandan Denkesyah
+                </span>
+                <h4 id="pimpinan-nama" class="text-lg sm:text-xl font-extrabold text-white">Letkol Ckm dr. Sandhi Fitriardi, Sp.S.,M.M.</h4>
+                <p id="pimpinan-pangkat" class="text-xs text-emerald-300 font-medium mt-1">Dandenkesyah 04.04.04 Surakarta</p>
+                <p id="pimpinan-sub" class="text-[11px] text-slate-400 mt-0.5">Kesdam IV/Diponegoro</p>
+              </div>s
+            </div>
+
+            <!-- Kutipan Nilai Kejuangan -->
+            <div class="mt-4 p-4 rounded-xl bg-amber-50 border border-amber-200 text-xs text-amber-900 flex items-center gap-3">
+              <i data-lucide="quote" class="w-5 h-5 text-amber-700 shrink-0"></i>
+              <span id="pimpinan-kutipan" class="italic font-medium">"Kesehatan prima prajurit adalah penentu kemenangan dalam setiap medan pengabdian."</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sambutan & Visi Misi -->
+        <div class="lg:col-span-7 space-y-6">
+          <div>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-emerald-100 text-emerald-900 text-xs font-bold uppercase tracking-wider mb-2">
+              <i data-lucide="bookmark" class="w-3.5 h-3.5"></i>
+              Sambutan Pimpinan Satuan
+            </div>
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
+              Komitmen Integritas, Profesionalitas, dan Pengabdian Kesehatan TNI AD
+            </h2>
+          </div>
+
+          <p id="pimpinan-sambutan-1" class="text-sm sm:text-base text-slate-600 leading-relaxed">
+            Puji syukur kita panjatkan ke hadirat Tuhan Yang Maha Esa. Website resmi Denkesyah 04.04.04 Surakarta hadir sebagai sarana informasi, transparansi, serta jembatan pelayanan terpadu bagi keluarga besar TNI AD, PNS Kemhan, dan seluruh masyarakat wilayah Solo Raya.
+          </p>
+
+          <p id="pimpinan-sambutan-2" class="text-sm sm:text-base text-slate-600 leading-relaxed">
+            Sebagai komando pelaksana teknis kesehatan di bawah jajaran <strong>Kesdam IV/Diponegoro</strong>, kami mengemban dua tugas mulia: <em>Dukungan Kesehatan (Dukkes)</em> untuk kesiapan tempur dan latihan militer, serta <em>Pelayanan Kesehatan (Yankes)</em> yang prima, modern, dan humanis melalui rumah sakit kebanggaan RS Tk. III Slamet Riyadi serta 7 Klinik Pratama Kartika.
+          </p>
+
+          <!-- Visi & Misi Box -->
+          <div class="grid sm:grid-cols-2 gap-4 pt-2">
+            <div class="p-5 bg-white rounded-2xl border border-slate-200 shadow-sm hover:border-emerald-300 transition">
+              <div class="w-9 h-9 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-sm mb-3">
+                <i data-lucide="target" class="w-5 h-5"></i>
+              </div>
+              <h4 class="font-bold text-slate-900 text-base mb-1.5">Visi Satuan</h4>
+              <p id="profil-visi" class="text-xs text-slate-600 leading-relaxed">
+                Menjadi satuan kesehatan militer yang handal, profesional, dan dicintai rakyat, dengan kapabilitas dukungan operasional unggul serta fasilitas faskes berstandar nasional.
+              </p>
+            </div>
+
+            <div class="p-5 bg-white rounded-2xl border border-slate-200 shadow-sm hover:border-amber-300 transition">
+              <div class="w-9 h-9 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center font-bold text-sm mb-3">
+                <i data-lucide="compass" class="w-5 h-5"></i>
+              </div>
+              <h4 class="font-bold text-slate-900 text-base mb-1.5">Motto Hesti Wira Sakti</h4>
+              <p id="profil-motto-desc" class="text-xs text-slate-600 leading-relaxed">
+                Prajurit kesehatan yang tangkas, berilmu luhur, berani menghadapi risiko tugas, dan senantiasa mendahulukan keselamatan jiwa prajurit serta masyarakat.
+              </p>
+            </div>
+          </div>
+
+          <!-- Misi Poin -->
+          <div class="p-5 bg-white rounded-2xl border border-slate-200 shadow-sm">
+            <h4 class="font-bold text-slate-900 text-sm mb-2 flex items-center gap-2">
+              <i data-lucide="list-checks" class="w-4 h-4 text-[#1b4332]"></i>
+              3 Pilar Tugas Pokok Denkesyah 04.04.04:
+            </h4>
+            <ul id="profil-pilar-list" class="space-y-2 text-xs text-slate-600">
+              <li class="flex items-start gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5"></i>
+                <span><strong>Dukungan Kesehatan Taktis:</strong> Menjamin kesiapan fisik prajurit Korem 074/Warastratama melalui Rikkes dan pengawalan medis di medan latihan/tugas.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5"></i>
+                <span><strong>Pelayanan Kesehatan Berkualitas:</strong> Mengembangkan layanan spesialistik terakreditasi di RS Slamet Riyadi dan faskes tingkat pertama Kartika.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5"></i>
+                <span><strong>Kemanunggalan dengan Rakyat:</strong> Pengabdian masyarakat melalui bakti kesehatan, donor darah, pencegahan stunting, dan tanggap bencana.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FASILITAS KESEHATAN (FASKES) JAJARAN DENKESYAH -->
+  <section id="faskes" class="py-20 bg-white border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      <!-- Section Header -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
+        <div>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-emerald-100 text-emerald-900 text-xs font-bold uppercase tracking-wider mb-2">
+            <i data-lucide="building" class="w-3.5 h-3.5"></i>
+            Jejaring Faskes Solo Raya
+          </div>
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight">
+            Fasilitas Kesehatan Jajaran Denkesyah 04.04.04
+          </h2>
+          <p class="text-slate-500 text-sm mt-1 max-w-2xl">
+            Meliputi 1 Rumah Sakit Rujukan Tingkat III (RS DKT Solo), 7 Klinik Pratama Kartika, 2 Klinik Batalyon Tempur (Yonif 408 & 413), serta Unit Gudkesyah & Tim Reaksi Cepat (TRC) Dukkes di wilayah Korem 074/Warastratama.
+          </p>
+        </div>
+
+        <div id="faskes-count" class="text-xs font-bold px-3 py-1.5 bg-slate-100 text-slate-700 rounded-xl border border-slate-200 self-start md:self-end">
+          Menampilkan Faskes
+        </div>
+      </div>
+
+      <!-- Filter Bar Interaktif -->
+      <div class="bg-slate-50 p-4 sm:p-5 rounded-2xl border border-slate-200 mb-8 space-y-4">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-3 items-center">
+          <!-- Live Search Input -->
+          <div class="md:col-span-4 relative">
+            <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2"></i>
+            <input 
+              type="text" 
+              id="faskes-search" 
+              placeholder="Cari faskes, kode BPJS, alamat, atau layanan..." 
+              class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-200 bg-white text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-[#1b4332] focus:border-transparent transition"
+            />
+          </div>
+
+          <!-- Dropdown Filter Wilayah -->
+          <div class="md:col-span-3">
+            <select id="filter-wilayah" class="w-full px-3 py-2.5 rounded-xl border border-slate-200 bg-white text-xs sm:text-sm font-semibold text-slate-700 focus:outline-none focus:ring-2 focus:ring-[#1b4332]">
+              <option value="semua">Semua Wilayah (Solo Raya)</option>
+              <option value="surakarta">Kota Surakarta (Solo)</option>
+              <option value="klaten">Kabupaten Klaten</option>
+              <option value="boyolali">Kabupaten Boyolali</option>
+              <option value="sukoharjo">Kabupaten Sukoharjo</option>
+              <option value="karanganyar">Kabupaten Karanganyar</option>
+              <option value="sragen">Kabupaten Sragen</option>
+              <option value="wonogiri">Kabupaten Wonogiri</option>
+            </select>
+          </div>
+
+          <!-- Category Buttons -->
+          <div class="md:col-span-5 flex items-center gap-1.5 bg-white p-1 rounded-xl border border-slate-200 overflow-x-auto">
+            <button data-kategori="semua" class="kategori-btn px-3 py-1.5 text-xs font-bold rounded-lg bg-[#1b4332] text-white whitespace-nowrap transition">
+              Semua (12)
+            </button>
+            <button data-kategori="rumkit" class="kategori-btn px-3 py-1.5 text-xs font-bold rounded-lg bg-white text-slate-700 hover:bg-slate-50 whitespace-nowrap transition">
+              Rumah Sakit
+            </button>
+            <button data-kategori="kartika" class="kategori-btn px-3 py-1.5 text-xs font-bold rounded-lg bg-white text-slate-700 hover:bg-slate-50 whitespace-nowrap transition">
+              Klinik Kartika (7)
+            </button>
+            <button data-kategori="yonif" class="kategori-btn px-3 py-1.5 text-xs font-bold rounded-lg bg-white text-slate-700 hover:bg-slate-50 whitespace-nowrap transition">
+              Klinik Batalyon
+            </button>
+            <button data-kategori="khusus" class="kategori-btn px-3 py-1.5 text-xs font-bold rounded-lg bg-white text-slate-700 hover:bg-slate-50 whitespace-nowrap transition">
+              Unit Khusus
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Faskes Grid Container -->
+      <div id="faskes-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <!-- Diisi secara dinamis oleh js/main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- LAYANAN UNGGULAN & DUKKES MILITER -->
+  <section id="layanan" class="py-20 bg-slate-900 text-white relative overflow-hidden">
+    <!-- Pattern Background -->
+    <div class="absolute inset-0 bg-army-pattern opacity-60 pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 relative z-10">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-emerald-900/90 text-emerald-300 border border-emerald-700/60 text-xs font-bold uppercase tracking-wider mb-3">
+          <i data-lucide="award" class="w-3.5 h-3.5 text-amber-400"></i>
+          Pelayanan Medis & Dukungan Militer
+        </div>
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight">
+          Layanan Unggulan Denkesyah 04.04.04
+        </h2>
+        <p class="text-slate-400 text-sm mt-2">
+          Perpaduan kesiapan dukungan tempur taktis dengan standar pelayanan medis modern berorientasi keselamatan pasien.
+        </p>
+      </div>
+
+      <!-- Grid 6 Layanan Unggulan -->
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Dukkes Opslat -->
+        <div class="p-6 rounded-2xl bg-slate-800/80 border border-slate-700/80 hover:border-amber-400/60 transition-all hover-lift">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/20 border border-amber-400/40 text-amber-300 flex items-center justify-center mb-4">
+            <i data-lucide="shield-alert" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold px-2 py-0.5 bg-amber-400/20 text-amber-300 rounded border border-amber-400/30 uppercase tracking-wider">
+            Fungsi Pokok Militer
+          </span>
+          <h3 class="text-lg font-bold text-white mt-2 mb-2">Dukkes Operasi & Latihan (Opslat)</h3>
+          <p class="text-xs text-slate-300 leading-relaxed mb-4">
+            Dukungan medis lapangan untuk latihan tempur prajurit, posko kesehatan terpadu, serta pengamanan medis VVIP RI-1/RI-2 di Solo Raya.
+          </p>
+          <ul class="space-y-1.5 text-xs text-slate-300 border-t border-slate-700/60 pt-3">
+            <li class="flex items-center gap-2">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-amber-400"></i>
+              Tim Medis Reaksi Cepat Lapangan 24/7
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-amber-400"></i>
+              Pengamanan Ring 1 & Ring 2 Kenegaraan
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-amber-400"></i>
+              Ambulans Taktis Evakuasi Medan Sulit
+            </li>
+          </ul>
+        </div>
+
+        <!-- Rikkes Seleksi Calon Prajurit -->
+        <div class="p-6 rounded-2xl bg-slate-800/80 border border-slate-700/80 hover:border-emerald-400/60 transition-all hover-lift">
+          <div class="w-12 h-12 rounded-xl bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 flex items-center justify-center mb-4">
+            <i data-lucide="clipboard-check" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold px-2 py-0.5 bg-emerald-400/20 text-emerald-300 rounded border border-emerald-400/30 uppercase tracking-wider">
+            Prajurit & Werving
+          </span>
+          <h3 class="text-lg font-bold text-white mt-2 mb-2">Rikkes Calon Prajurit & Berkala</h3>
+          <p class="text-xs text-slate-300 leading-relaxed mb-4">
+            Uji pemeriksaan kesehatan terstandar Mabesad untuk calon Taruna Akmil, Pa PK, Bintara, Tamtama serta Rikkes Semester prajurit aktif.
+          </p>
+          <ul class="space-y-1.5 text-xs text-slate-300 border-t border-slate-700/60 pt-3">
+            <li class="flex items-center gap-2">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400"></i>
+              Pemeriksaan Fisik, Gigi, Mata & THT
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400"></i>
+              Laboratorium Lengkap, Rongent & EKG
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400"></i>
+              Sidang Penetapan Stakes I s/d IV
+            </li>
+          </ul>
+        </div>
+
+        <!-- Rawat Spesialis RS DKT -->
+        <div class="p-6 rounded-2xl bg-slate-800/80 border border-slate-700/80 hover:border-blue-400/60 transition-all hover-lift">
+          <div class="w-12 h-12 rounded-xl bg-blue-500/20 border border-blue-400/40 text-blue-300 flex items-center justify-center mb-4">
+            <i data-lucide="building-2" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold px-2 py-0.5 bg-blue-400/20 text-blue-300 rounded border border-blue-400/30 uppercase tracking-wider">
+            RS Slamet Riyadi
+          </span>
+          <h3 class="text-lg font-bold text-white mt-2 mb-2">Rawat Jalan & Rawat Inap Spesialis</h3>
+          <p class="text-xs text-slate-300 leading-relaxed mb-4">
+            Poliklinik dokter spesialis lengkap, ruang rawat inap nyaman (VVIP hingga Kelas III), kamar operasi modern (IBS) dan ICU terintegrasi.
+          </p>
+          <ul class="space-y-1.5 text-xs text-slate-300 border-t border-slate-700/60 pt-3">
+            <li class="flex items-center gap-2">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-blue-400"></i>
+              8+ Poliklinik Spesialis Berpengalaman
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-blue-400"></i>
+              Kamar Operasi Steril Hepa Filter
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-blue-400"></i>
+              Pelayanan Fisioterapi & Radiologi Digital
+            </li>
+          </ul>
+        </div>
+
+        <!-- BPJS Center & Rekanan -->
+        <div class="p-6 rounded-2xl bg-slate-800/80 border border-slate-700/80 hover:border-teal-400/60 transition-all hover-lift">
+          <div class="w-12 h-12 rounded-xl bg-teal-500/20 border border-teal-400/40 text-teal-300 flex items-center justify-center mb-4">
+            <i data-lucide="credit-card" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold px-2 py-0.5 bg-teal-400/20 text-teal-300 rounded border border-teal-400/30 uppercase tracking-wider">
+            Masyarakat Luas
+          </span>
+          <h3 class="text-lg font-bold text-white mt-2 mb-2">BPJS Center & Pasien Umum</h3>
+          <p class="text-xs text-slate-300 leading-relaxed mb-4">
+            Pelayanan BPJS Kesehatan tanpa diskriminasi dengan integrasi Mobile JKN, antrean online, serta kerja sama asuransi swasta terkemuka.
+          </p>
+          <ul class="space-y-1.5 text-xs text-slate-300 border-t border-slate-700/60 pt-3">
+            <li class="flex items-center gap-2">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-teal-400"></i>
+              Bridging SIMRS & V-Claim BPJS Instan
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-teal-400"></i>
+              Petugas Informasi & Pengaduan Pasien (PIPP)
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-teal-400"></i>
+              Menerima BPJS Mandiri, PBI & Asn
+            </li>
+          </ul>
+        </div>
+
+        <!-- IGD Siaga 24 Jam -->
+        <div class="p-6 rounded-2xl bg-slate-800/80 border border-slate-700/80 hover:border-red-400/60 transition-all hover-lift">
+          <div class="w-12 h-12 rounded-xl bg-red-500/20 border border-red-400/40 text-red-300 flex items-center justify-center mb-4">
+            <i data-lucide="ambulance" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold px-2 py-0.5 bg-red-400/20 text-red-300 rounded border border-red-400/30 uppercase tracking-wider">
+            Emergency 24/7
+          </span>
+          <h3 class="text-lg font-bold text-white mt-2 mb-2">IGD 24 Jam & Evakuasi Medis</h3>
+          <p class="text-xs text-slate-300 leading-relaxed mb-4">
+            Kesiapan dokter dan perawat bersertifikasi trauma (ATLS/ACLS/BTCLS) menangani kegawatdaruratan trauma dan penyakit kritis.
+          </p>
+          <ul class="space-y-1.5 text-xs text-slate-300 border-t border-slate-700/60 pt-3">
+            <li class="flex items-center gap-2">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-red-400"></i>
+              Hotline IGD Langsung (0271) 713311
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-red-400"></i>
+              Ambulans Jemput Pasien Wilayah Solo Raya
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-red-400"></i>
+              Instalasi Farmasi & Bank Darah Siaga
+            </li>
+          </ul>
+        </div>
+
+        <!-- Bakti Sosial & Promkes -->
+        <div class="p-6 rounded-2xl bg-slate-800/80 border border-slate-700/80 hover:border-purple-400/60 transition-all hover-lift">
+          <div class="w-12 h-12 rounded-xl bg-purple-500/20 border border-purple-400/40 text-purple-300 flex items-center justify-center mb-4">
+            <i data-lucide="heart-handshake" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold px-2 py-0.5 bg-purple-400/20 text-purple-300 rounded border border-purple-400/30 uppercase tracking-wider">
+            TNI & Rakyat
+          </span>
+          <h3 class="text-lg font-bold text-white mt-2 mb-2">Baksos Kesehatan & Cegah Stunting</h3>
+          <p class="text-xs text-slate-300 leading-relaxed mb-4">
+            Aksi sosial kesehatan berkala bersama Persit Kartika Chandra Kirana untuk pengobatan cuma-cuma, donor darah, dan gizi balita.
+          </p>
+          <ul class="space-y-1.5 text-xs text-slate-300 border-t border-slate-700/60 pt-3">
+            <li class="flex items-center gap-2">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-purple-400"></i>
+              Pengobatan Gratis di Pelosok Desa Binaan
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-purple-400"></i>
+              Operasi Bibir Sumbing & Katarak Massal
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-purple-400"></i>
+              Pemberian Nutrisi Tambahan Stunting
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JADWAL DOKTER & POLIKLINIK SPESIALIS (RS SLAMET RIYADI) -->
+  <section id="jadwal" class="py-20 bg-slate-50 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-emerald-100 text-emerald-900 text-xs font-bold uppercase tracking-wider mb-2">
+          <i data-lucide="stethoscope" class="w-3.5 h-3.5"></i>
+          Poliklinik Rawat Jalan
+        </div>
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight">
+          Jadwal Dokter Spesialis RS Slamet Riyadi Solo
+        </h2>
+        <p class="text-slate-500 text-sm mt-1">
+          Konsultasi medis bersama tim dokter spesialis militer dan sipil berpengalaman di RS DKT Surakarta.
+        </p>
+      </div>
+
+      <div class="grid lg:grid-cols-12 gap-8 items-start">
+        <!-- Sidebar Tabs Poliklinik -->
+        <div class="lg:col-span-4">
+          <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm space-y-1.5">
+            <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider px-3 py-2">
+              Pilih Poliklinik Spesialis:
+            </h4>
+            <div id="dokter-nav" class="space-y-1">
+              <!-- Diisi secara dinamis oleh js/main.js -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Detail Konten Dokter -->
+        <div class="lg:col-span-8" id="dokter-content">
+          <!-- Diisi secara dinamis oleh js/main.js -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ALUR PELAYANAN & PROSEDUR PENDAFTARAN -->
+  <section id="alur" class="py-20 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-emerald-100 text-emerald-900 text-xs font-bold uppercase tracking-wider mb-2">
+          <i data-lucide="git-merge" class="w-3.5 h-3.5"></i>
+          Panduan Pasien
+        </div>
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight">
+          Alur Prosedur Pelayanan Kesehatan
+        </h2>
+        <p class="text-slate-500 text-sm mt-1">
+          Pahami alur berobat Anda untuk pelayanan yang tertib, cepat, dan transparan.
+        </p>
+
+        <!-- Tab Pemilih Alur -->
+        <div id="alur-nav" class="flex flex-wrap items-center justify-center gap-2 mt-6">
+          <!-- Diisi secara dinamis oleh js/main.js -->
+        </div>
+      </div>
+
+      <!-- Konten Alur Terpilih -->
+      <div id="alur-content" class="max-w-5xl mx-auto">
+        <!-- Diisi secara dinamis oleh js/main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- KALKULATOR FISIK & KESEHATAN TNI (BMI & STAKES) -->
+  <section id="kalkulator" class="py-20 bg-emerald-950 text-white relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 relative z-10">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-6 space-y-4">
+          <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-900 text-amber-300 text-xs font-bold uppercase tracking-wider border border-emerald-700">
+            <i data-lucide="calculator" class="w-3.5 h-3.5"></i>
+            Skrining Mandiri
+          </span>
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight">
+            Kalkulator Indeks Massa Tubuh (BMI) & Standar Fisik TNI AD
+          </h2>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            Ketahui apakah proporsi berat dan tinggi badan Anda memenuhi kriteria status kesehatan (Stakes) werving calon prajurit TNI AD atau standar kebugaran dinas militer.
+          </p>
+
+          <div class="p-4 rounded-xl bg-emerald-900/60 border border-emerald-700/60 text-xs text-emerald-200 space-y-2">
+            <p class="font-bold text-amber-300 flex items-center gap-1.5">
+              <i data-lucide="info" class="w-4 h-4"></i>
+              Ketentuan Standar Nilai Stakes TNI AD:
+            </p>
+            <p><strong>Stakes I (BMI 18.5 - 24.9):</strong> Sangat Baik / Ideal untuk tugas tempur dan syarat werving utama.</p>
+            <p><strong>Stakes II (BMI 25.0 - 27.0):</strong> Baik / Terbatas, membutuhkan pengawasan latihan kardio berkala.</p>
+            <p><strong>Stakes III & IV:</strong> Memerlukan penanganan gizi klinis atau perbaikan postur tubuh.</p>
+          </div>
+        </div>
+
+        <!-- Form Hitung BMI -->
+        <div class="lg:col-span-6">
+          <div class="bg-white text-slate-800 p-6 sm:p-8 rounded-3xl shadow-2xl border border-slate-100">
+            <h3 class="text-lg font-bold text-slate-900 mb-4 flex items-center gap-2">
+              <i data-lucide="scale" class="w-5 h-5 text-emerald-700"></i>
+              Masukkan Data Postur Tubuh
+            </h3>
+
+            <form id="bmi-form" class="space-y-4">
+              <div class="grid grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-bold text-slate-700 mb-1">Tinggi Badan (cm)</label>
+                  <input type="number" id="bmi-tb" placeholder="Contoh: 172" min="100" max="230" required class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#1b4332]" />
+                </div>
+                <div>
+                  <label class="block text-xs font-bold text-slate-700 mb-1">Berat Badan (kg)</label>
+                  <input type="number" id="bmi-bb" placeholder="Contoh: 68" min="30" max="200" step="0.5" required class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#1b4332]" />
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">Jenis Kelamin</label>
+                <div class="flex items-center gap-6 text-xs font-semibold text-slate-700 mt-1">
+                  <label class="flex items-center gap-2 cursor-pointer">
+                    <input type="radio" name="bmi-gender" value="pria" checked class="text-[#1b4332] focus:ring-[#1b4332]" />
+                    <span>Pria / Prajurit</span>
+                  </label>
+                  <label class="flex items-center gap-2 cursor-pointer">
+                    <input type="radio" name="bmi-gender" value="wanita" class="text-[#1b4332] focus:ring-[#1b4332]" />
+                    <span>Wanita / Kowad</span>
+                  </label>
+                </div>
+              </div>
+
+              <button type="submit" class="w-full py-3 bg-[#1b4332] hover:bg-[#2d5a27] text-white font-bold text-xs sm:text-sm rounded-xl transition shadow flex items-center justify-center gap-2">
+                <i data-lucide="check-circle" class="w-4 h-4 text-amber-300"></i>
+                <span>Hitung Nilai BMI & Evaluasi Stakes</span>
+              </button>
+            </form>
+
+            <div id="bmi-result" class="hidden">
+              <!-- Diisi otomatis oleh js/main.js -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BERITA, KEGIATAN & BAKTI SOSIAL -->
+  <section id="berita" class="py-20 bg-slate-50 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+        <div>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-emerald-100 text-emerald-900 text-xs font-bold uppercase tracking-wider mb-2">
+            <i data-lucide="newspaper" class="w-3.5 h-3.5"></i>
+            Warta & Liputan Terkini
+          </div>
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight">
+            Kegiatan & Pengabdian Satuan
+          </h2>
+          <p class="text-slate-500 text-sm mt-1 max-w-2xl">
+            Dokumentasi aksi kemanusiaan, latihan dukkes terpadu, dan bakti sosial kesehatan prajurit Denkesyah 04.04.04 Surakarta.
+          </p>
+        </div>
+      </div>
+
+      <!-- Grid Berita -->
+      <div id="berita-grid" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Diisi secara dinamis oleh js/main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-8">
+      <div class="text-center mb-12">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-emerald-100 text-emerald-900 text-xs font-bold uppercase tracking-wider mb-2">
+          <i data-lucide="help-circle" class="w-3.5 h-3.5"></i>
+          Pusat Bantuan
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+          Pertanyaan yang Sering Diajukan (FAQ)
+        </h2>
+        <p class="text-slate-500 text-sm mt-1">
+          Informasi seputar pelayanan, BPJS, rujukan, dan fasilitas Denkesyah 04.04.04 Surakarta.
+        </p>
+      </div>
+
+      <div class="space-y-3">
+        <!-- FAQ 1 -->
+        <div class="border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+          <button class="faq-toggle w-full p-5 text-left font-bold text-slate-900 text-sm sm:text-base flex items-center justify-between gap-4 hover:bg-slate-50 transition">
+            <span>Apakah masyarakat sipil umum dan pengguna BPJS non-TNI boleh berobat di RS DKT Slamet Riyadi?</span>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-slate-400 shrink-0 transition-transform"></i>
+          </button>
+          <div class="accordion-content bg-slate-50 px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100">
+            Sangat boleh. Rumah Sakit Tk. III Slamet Riyadi (RS DKT Solo) dan Klinik Pratama Kartika jajaran melayani seluruh lapisan masyarakat, baik peserta BPJS Mandiri, PBI, ASN/PNS daerah, pekerja swasta, maupun pasien umum tunai dan asuransi swasta rekanan.
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+          <button class="faq-toggle w-full p-5 text-left font-bold text-slate-900 text-sm sm:text-base flex items-center justify-between gap-4 hover:bg-slate-50 transition">
+            <span>Bagaimana cara mendaftar untuk pemeriksaan kesehatan calon prajurit (Rikkes Werving)?</span>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-slate-400 shrink-0 transition-transform"></i>
+          </button>
+          <div class="accordion-content bg-slate-50 px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100">
+            Calon prajurit harus mendaftar secara online terlebih dahulu pada portal resmi rekrutmen TNI AD (ad.rekrutmen-tni.mil.id) atau melalui Ajenrem 074/Warastratama. Nomor ujian dan jadwal Rikkes akan diterbitkan resmi oleh panitia werving.
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+          <button class="faq-toggle w-full p-5 text-left font-bold text-slate-900 text-sm sm:text-base flex items-center justify-between gap-4 hover:bg-slate-50 transition">
+            <span>Apakah ambulans darurat RS DKT Slamet Riyadi bisa dipanggil ke rumah di luar kota Solo?</span>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-slate-400 shrink-0 transition-transform"></i>
+          </button>
+          <div class="accordion-content bg-slate-50 px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100">
+            Ya, Instalasi Gawat Darurat (IGD) RS Slamet Riyadi menyediakan layanan ambulans siaga 24 jam untuk evakuasi rujukan pasien di seluruh wilayah Solo Raya (Solo, Sukoharjo, Karanganyar, Boyolali, Klaten, Sragen, Wonogiri). Hubungi hotline IGD di (0271) 713311.
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+          <button class="faq-toggle w-full p-5 text-left font-bold text-slate-900 text-sm sm:text-base flex items-center justify-between gap-4 hover:bg-slate-50 transition">
+            <span>Di mana saja letak Klinik Pratama Kartika jajaran Denkesyah 04.04.04?</span>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-slate-400 shrink-0 transition-transform"></i>
+          </button>
+          <div class="accordion-content bg-slate-50 px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100">
+            Klinik Pratama Kartika berada di 7 wilayah Solo Raya: Kartika 01 (Laweyan Surakarta), Kartika 23 (Kodim Klaten), Kartika 24 (Kodim Boyolali), Kartika 25 (Kodim Sragen), Kartika 26 (Kodim Sukoharjo), Kartika 27 (Kodim Karanganyar), dan Kartika 28 (Kodim Wonogiri).
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PENGADUAN, ASPIRASI & KONTAK TERPADU -->
+  <section id="kontak" class="py-20 bg-slate-100 border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 items-start">
+        <!-- Contact Info & Location -->
+        <div class="lg:col-span-5 space-y-6">
+          <div>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-emerald-100 text-emerald-900 text-xs font-bold uppercase tracking-wider mb-2">
+              <i data-lucide="map-pin" class="w-3.5 h-3.5"></i>
+              Lokasi & Layanan Terpadu
+            </div>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+              Markas Denkesyah 04.04.04 Surakarta
+            </h2>
+            <p class="text-slate-500 text-sm mt-1">
+              Pusat komando teknis kesehatan militer Kesdam IV/Diponegoro di wilayah Surakarta dan Solo Raya.
+            </p>
+          </div>
+
+          <div class="space-y-4 text-xs sm:text-sm text-slate-700">
+            <div class="flex items-start gap-3 p-4 rounded-2xl bg-white border border-slate-200 shadow-sm">
+              <i data-lucide="map-pin" class="w-5 h-5 text-emerald-700 shrink-0 mt-0.5"></i>
+              <div>
+                <strong class="text-slate-900 block font-bold">Alamat Kantor & Rumah Sakit:</strong>
+                Jl. Slamet Riyadi No. 321, Penumping, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57141
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 p-4 rounded-2xl bg-white border border-slate-200 shadow-sm">
+              <i data-lucide="phone" class="w-5 h-5 text-emerald-700 shrink-0 mt-0.5"></i>
+              <div>
+                <strong class="text-slate-900 block font-bold">Telepon Operator Madenkesyah / RS DKT:</strong>
+                (0271) 714422 / (0271) 713311 (IGD Siaga)
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 p-4 rounded-2xl bg-white border border-slate-200 shadow-sm">
+              <i data-lucide="mail" class="w-5 h-5 text-emerald-700 shrink-0 mt-0.5"></i>
+              <div>
+                <strong class="text-slate-900 block font-bold">Email Kedinasan:</strong>
+                denkesyah040404.solo@tni-ad.mil.id
+              </div>
+            </div>
+          </div>
+
+          <!-- Peta Google Map Embed Dummy/Direct Link -->
+          <div class="p-4 rounded-2xl bg-white border border-slate-200 shadow-sm">
+            <h4 class="font-bold text-slate-900 text-xs mb-2 flex items-center gap-1.5">
+              <i data-lucide="navigation" class="w-4 h-4 text-[#1b4332]"></i>
+              Petunjuk Navigasi Lokasi:
+            </h4>
+            <p class="text-xs text-slate-600 mb-3">
+              Berada di jalan protokol utama Slamet Riyadi Solo, berdekatan dengan Taman Sriwedari dan pusat kota Surakarta.
+            </p>
+            <a href="https://maps.google.com/?q=RS+Slamet+Riyadi+Solo" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 bg-slate-800 hover:bg-slate-900 text-white rounded-xl text-xs font-bold transition flex items-center justify-center gap-2">
+              <i data-lucide="external-link" class="w-4 h-4"></i>
+              <span>Buka Google Maps Rute Menuju Denkesyah</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Form Pengaduan & Aspirasi -->
+        <div class="lg:col-span-7">
+          <div class="bg-white p-6 sm:p-8 rounded-3xl border border-slate-200 shadow-lg">
+            <div class="border-b border-slate-100 pb-4 mb-6">
+              <span class="text-xs font-bold text-amber-700 bg-amber-50 px-3 py-1 rounded-full border border-amber-200 uppercase tracking-wider">
+                Layanan Terpadu Satu Pintu
+              </span>
+              <h3 class="text-xl font-bold text-slate-900 mt-1">Formulir Pengaduan, Informasi & Aspirasi</h3>
+              <p class="text-xs text-slate-500 mt-1">
+                Kami siap mendengarkan saran, masukan perbaikan layanan kesehatan, serta permohonan dukungan medis.
+              </p>
+            </div>
+
+            <form id="form-pengaduan" class="space-y-4">
+              <div class="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-bold text-slate-700 mb-1">Nama Lengkap *</label>
+                  <input type="text" id="pengaduan-nama" placeholder="Masukkan nama Anda / Prajurit" required class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-[#1b4332]" />
+                </div>
+                <div>
+                  <label class="block text-xs font-bold text-slate-700 mb-1">Nomor HP / WhatsApp *</label>
+                  <input type="tel" id="pengaduan-hp" placeholder="08xxxxxxxxxx" required class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-[#1b4332]" />
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">Kategori Kepentingan *</label>
+                <select id="pengaduan-kategori" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs sm:text-sm font-semibold text-slate-700 focus:outline-none focus:ring-2 focus:ring-[#1b4332]">
+                  <option value="Informasi Berobat / Jadwal Dokter">Informasi Berobat / Jadwal Dokter</option>
+                  <option value="Informasi Rikkes Calon Prajurit TNI AD">Informasi Rikkes Calon Prajurit TNI AD</option>
+                  <option value="Permohonan Tim Dukungan Medis (Dukkes Event)">Permohonan Tim Dukungan Medis (Dukkes Event)</option>
+                  <option value="Pengaduan / Keluhan Pelayanan Pasien">Pengaduan / Keluhan Pelayanan Pasien</option>
+                  <option value="Kritik & Saran Membangun">Kritik & Saran Membangun</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">Isi Pesan / Aspirasi / Pertanyaan *</label>
+                <textarea id="pengaduan-pesan" rows="4" placeholder="Tuliskan secara jelas kebutuhan atau saran Anda..." required class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-[#1b4332]"></textarea>
+              </div>
+
+              <div class="p-3 bg-emerald-50 rounded-xl border border-emerald-200 text-xs text-emerald-900 flex items-center gap-2">
+                <i data-lucide="shield-check" class="w-4 h-4 text-emerald-700 shrink-0"></i>
+                <span>Data Anda dijaga kerahasiaannya sesuai regulasi etika medis dan dinas militer.</span>
+              </div>
+
+              <button type="submit" class="w-full py-3 bg-[#1b4332] hover:bg-[#2d5a27] text-white font-bold text-xs sm:text-sm rounded-xl transition shadow flex items-center justify-center gap-2">
+                <i data-lucide="send" class="w-4 h-4 text-amber-300"></i>
+                <span>Kirim Pesan / Hubungkan ke Call Center</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER RESMI -->
+  <footer class="bg-[#0b2216] text-white border-t border-emerald-900/60 pt-16 pb-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-emerald-900/80">
+        <!-- Kolom 1: Profil Satuan -->
+        <div class="lg:col-span-4 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-lg bg-emerald-900 p-1.5 border border-amber-400 flex items-center justify-center">
+              <svg viewBox="0 0 100 100" class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 5 L88 20 V50 C88 74 50 95 50 95 C50 95 12 74 12 50 V20 L50 5 Z" fill="#1b4332" stroke="#d4af37" stroke-width="4"/>
+                <rect x="44" y="42" width="12" height="34" rx="2" fill="#e11d48"/>
+                <rect x="33" y="53" width="34" height="12" rx="2" fill="#e11d48"/>
+              </svg>
+            </div>
+            <div>
+              <h4 class="font-extrabold text-sm text-white">DENKESYAH 04.04.04 SURAKARTA</h4>
+              <p class="text-[11px] text-amber-300">Kesdam IV/Diponegoro</p>
+            </div>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Badan pelaksana teknis kesehatan TNI Angkatan Darat di wilayah Solo Raya. Menyelenggarakan fungsi pembinaan kesehatan prajurit dan pelayanan kesehatan terpadu bagi masyarakat.
+          </p>
+          <div class="text-xs text-slate-400 space-y-1 pt-1">
+            <p><strong class="text-slate-200">Motto:</strong> Hesti Wira Sakti</p>
+            <p><strong class="text-slate-200">Korem Pembina:</strong> Korem 074/Warastratama</p>
+          </div>
+        </div>
+
+        <!-- Kolom 2: Tautan Cepat -->
+        <div class="lg:col-span-3 space-y-3">
+          <h5 class="text-xs font-extrabold uppercase tracking-wider text-amber-400">Navigasi Utama</h5>
+          <ul class="space-y-2 text-xs text-slate-300">
+            <li><a href="#beranda" class="hover:text-amber-300 transition">Beranda Utama</a></li>
+            <li><a href="#profil" class="hover:text-amber-300 transition">Profil & Komandan</a></li>
+            <li><a href="#faskes" class="hover:text-amber-300 transition">Jajaran Faskes Kartika</a></li>
+            <li><a href="#layanan" class="hover:text-amber-300 transition">Layanan Dukkes & Yankes</a></li>
+            <li><a href="#jadwal" class="hover:text-amber-300 transition">Jadwal Poliklinik RS DKT</a></li>
+            <li><a href="#alur" class="hover:text-amber-300 transition">Alur Pelayanan Pasien</a></li>
+          </ul>
+        </div>
+
+        <!-- Kolom 3: Tautan Institusi Terkait -->
+        <div class="lg:col-span-2 space-y-3">
+          <h5 class="text-xs font-extrabold uppercase tracking-wider text-amber-400">Tautan Resmi</h5>
+          <ul class="space-y-2 text-xs text-slate-300">
+            <li><a href="https://tniad.mil.id" target="_blank" rel="noopener noreferrer" class="hover:text-amber-300 transition">Mabes TNI AD</a></li>
+            <li><a href="https://kesad.mil.id" target="_blank" rel="noopener noreferrer" class="hover:text-amber-300 transition">Puskesad</a></li>
+            <li><a href="https://kodam4.mil.id" target="_blank" rel="noopener noreferrer" class="hover:text-amber-300 transition">Kodam IV/Diponegoro</a></li>
+            <li><a href="https://bpjs-kesehatan.go.id" target="_blank" rel="noopener noreferrer" class="hover:text-amber-300 transition">BPJS Kesehatan</a></li>
+          </ul>
+        </div>
+
+        <!-- Kolom 4: Emergency Siaga -->
+        <div class="lg:col-span-3 space-y-3">
+          <h5 class="text-xs font-extrabold uppercase tracking-wider text-red-400">Siaga Darurat 24 Jam</h5>
+          <div class="p-4 rounded-xl bg-red-950/60 border border-red-800/60 text-xs space-y-2">
+            <span class="text-slate-300 block">IGD RS Slamet Riyadi Solo:</span>
+            <a href="tel:0271713311" class="text-base font-bold text-amber-300 hover:underline block">(0271) 713311</a>
+            <span class="text-slate-400 block text-[11px]">Siaga Evakuasi Medis & Dukkes Darurat se-Solo Raya.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright Bar -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+        <p>© 2026 Detasemen Kesehatan Wilayah 04.04.04 Surakarta. Hak Cipta Dilindungi Undang-Undang.</p>
+        <p class="flex items-center gap-1.5">
+          <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+          <span>Sistem Informasi Profil Resmi Kesdam IV/Diponegoro</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL DETAIL FASKES & BERITA (Reusable) -->
+  <div id="modal-faskes" class="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-sm hidden items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-2xl w-full p-6 sm:p-8 shadow-2xl border border-slate-200 max-h-[90vh] overflow-y-auto transform transition-all">
+      <div id="modal-faskes-body">
+        <!-- Konten dinamis diisi oleh js/main.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT FILES -->
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
